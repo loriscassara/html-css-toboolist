@@ -1,0 +1,32 @@
+/* common UI elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEEEEE;
+    font-family: sans-serif;
+}
+
+/* header elements */
+header {
+    background-color: white;
+    height: 70px;
+    padding: 10px;
+}
+
+header img {
+    vertical-align: middle;
+    height: 100%;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 39px;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+/* main elements */
