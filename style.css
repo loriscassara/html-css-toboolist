@@ -15,6 +15,7 @@ header {
     background-color: white;
     height: 70px;
     padding: 10px;
+    margin-bottom: 35px;
 }
 
 header img {
@@ -30,3 +31,41 @@ header h1 {
 }
 
 /* main elements */
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.container .top {
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 10px 10px 0 0 ;
+    padding: 15px;
+}
+
+.container .tasks {
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    padding: 15px;
+}
+
+.button-filled {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: deepskyblue;
+    color: white;
+    font-size: 600;
+    border: solid 1px deepskyblue;
+    font-weight: 700;
+}
+
+.button-outline {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    border: solid 1px gray;
+    font-weight: 700;
+}
